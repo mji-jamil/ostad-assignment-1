@@ -16,7 +16,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     width: 400px;
-    height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,15 +36,33 @@ body {
 }
 
 .job {
-    margin: 0;
+    margin: 0 0 20px 0;
     font-weight: bolder;
     color: rgb(95, 95, 95);
 }
 
-.description {
+p {
+    margin: 0 0 20px 0;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+
+.description{
     color: rgb(95, 95, 95);
     text-align: center;
 }
+
+p span {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
 
 table {
     margin-bottom: 20px;
