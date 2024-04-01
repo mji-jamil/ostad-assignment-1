@@ -11,16 +11,16 @@ function calculate() {
 
     let result;
     switch (action) {
-        case "Addition ( + )":
+        case "+":
             result = num1 + num2;
             break;
-        case "Subtraction ( - )":
+        case "-":
             result = num1 - num2;
             break;
-        case "Multiplication ( * )":
+        case "*":
             result = num1 * num2;
             break;
-        case "Division ( / )":
+        case "/":
             result = num1 / num2;
             break;
         default:
