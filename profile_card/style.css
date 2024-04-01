@@ -73,6 +73,7 @@ td {
     font-weight: bold;
     cursor: pointer;
 }
+
 .hire {
     margin-left: 10px;
     border-color: black;
@@ -83,5 +84,4 @@ td {
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
-    /*transition: background-color 0.3s ease;*/
 }
