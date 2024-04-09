@@ -32,7 +32,7 @@ function calculate() {
             result = num1 / num2;
             break;
         default:
-            document.getElementById('result').innerHTML = '<div class="alert alert-danger p-2 mt-4 fs-4" role="alert">Invalid operation!</div>';
+            document.getElementById('result').innerHTML = '<div class="alert alert-danger p-2 mt-4 fs-4" role="alert">Select an action!</div>';
             return;
     }
 

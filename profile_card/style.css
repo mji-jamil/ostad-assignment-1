@@ -16,7 +16,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    width: 400px;
+    width: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +43,7 @@ body {
 }
 
 p {
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     font-weight: bolder;
     text-align: center;
     color: rgb(95, 95, 95);
@@ -58,48 +58,44 @@ p span {
     text-align: center;
     font-weight: bold;
     color: black;
+    padding: 0;
 }
 
-.email {
-    margin-bottom: 10px;
-}
-
-
-table {
-    margin-bottom: 20px;
+.card hr {
     width: 90%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
 }
 
-th {
-    font-weight: bolder;
+.contact {
+    margin-top: 0;
     text-align: center;
+    border-radius: 8px;
+}
+
+.contact h3 {
     color: rgb(95, 95, 95);
+    margin: 0;
+    padding: 10px 0;
+
 }
 
-td {
-    text-align: center;
-    font-weight: bold;
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
 }
 
-.follow {
-    margin-right:10px ;
-    background-color: white;
+.contact-item img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-item span {
+    font-size: 16px;
     color: black;
-    font-size: 16px;
-    padding: 10px 30px;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.hire {
-    margin-left: 10px;
-    border-color: black;
-    background-color: black;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px 30px;
-    border-radius: 5px;
-    font-size: 16px;
     font-weight: bold;
 }
